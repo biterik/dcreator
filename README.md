@@ -1,5 +1,8 @@
 # dcreator
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19502900.svg)](https://doi.org/10.5281/zenodo.19502900)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 **Parallel Volterra dislocation inserter for atomistic simulations.**
 
 Author: **Erik Bitzek** ([ORCID 0000-0001-7430-3694](https://orcid.org/0000-0001-7430-3694))
@@ -7,6 +10,7 @@ Affiliation: Max Planck Institute for Sustainable Materials, Düsseldorf, German
 Contact: <e.bitzek@mpi-susmat.de>
 License: **GPL-3.0-or-later** (see [LICENSE](LICENSE))
 Repository: <https://github.com/biterik/dcreator>
+Archive & DOI: <https://doi.org/10.5281/zenodo.19502900>
 
 `dcreator` takes an atomistic configuration of a crystal, rotates it
 into the frame of a prescribed dislocation, applies a *simplified*
@@ -351,6 +355,13 @@ BibTeX:
     doi     = {10.1016/j.actamat.2022.118095},
 }
 ```
+
+In addition, each software release has its own Zenodo DOI. For
+version 2.0.0 please also cite:
+
+> E. Bitzek, *dcreator 2.0.0: tool for inserting straight dislocations
+> for atomistic simulations*, Zenodo, 2026.
+> https://doi.org/10.5281/zenodo.19502900
 
 GitHub also exposes a "Cite this repository" button — see
 [`CITATION.cff`](CITATION.cff).

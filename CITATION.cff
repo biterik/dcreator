@@ -17,6 +17,11 @@ type: software
 license: GPL-3.0-or-later
 repository-code: "https://github.com/biterik/dcreator"
 url: "https://github.com/biterik/dcreator"
+doi: "10.5281/zenodo.19502900"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.19502900"
+    description: "Zenodo DOI for dcreator v2.0.0"
 keywords:
   - dislocation
   - Volterra construction
