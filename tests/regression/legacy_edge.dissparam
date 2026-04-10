@@ -1,0 +1,20 @@
+# Legacy regression fixture: reproduces the original DCREATOR output
+# for the Ni edge dislocation example.  `displacement_mode symmetric`
+# is the legacy +/- b/2 split; the reference file it should match is
+# reference_legacy.fcc (captured from the original dcreator 1.x build).
+
+configfile        input.fcc
+outfile           out.fcc
+
+new_z             1.0 1.0 1.0
+new_x             1.0 -1.0 0.0
+
+burgersv          1.76 -1.76 0.0
+linev             1.0 1.0 -2.0
+glideplane        -1.0 -1.0 -1.0
+point             49.7803173955329457 0.0 30.4840942132122404
+stripe            50
+
+displacement_mode symmetric
+input_format      imd
+output_format     imd

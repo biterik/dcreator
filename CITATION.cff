@@ -1,0 +1,69 @@
+cff-version: 1.2.0
+message: >-
+  If you use dcreator in published work, please cite the Acta Materialia
+  paper below as the primary reference. The piecewise displacement
+  construction implemented here was inspired by Rodney (2004), which is
+  listed as a secondary reference.
+title: "dcreator: parallel Volterra dislocation inserter for atomistic simulations"
+version: 2.0.0
+date-released: 2026-04-11
+authors:
+  - family-names: Bitzek
+    given-names: Erik
+    email: e.bitzek@mpi-susmat.de
+    orcid: "https://orcid.org/0000-0001-7430-3694"
+    affiliation: "Max Planck Institute for Sustainable Materials, Düsseldorf, Germany"
+type: software
+license: GPL-3.0-or-later
+repository-code: "https://github.com/biterik/dcreator"
+url: "https://github.com/biterik/dcreator"
+keywords:
+  - dislocation
+  - Volterra construction
+  - atomistic simulation
+  - molecular dynamics
+  - LAMMPS
+  - IMD
+  - solid solution strengthening
+  - concentrated solid solutions
+notes: >-
+  Funded by the Deutsche Forschungsgemeinschaft (DFG, German Research
+  Foundation) under the National Research Data Infrastructure –
+  NFDI 38/1 – project number 460247524 (NFDI-MatWerk consortium).
+preferred-citation:
+  type: article
+  title: "Pinning of extended dislocations in atomically disordered crystals"
+  authors:
+    - family-names: Vaid
+      given-names: Aviral
+    - family-names: Wei
+      given-names: Ding
+    - family-names: Bitzek
+      given-names: Erik
+      orcid: "https://orcid.org/0000-0001-7430-3694"
+    - family-names: Nasiri
+      given-names: Samaneh
+    - family-names: Zaiser
+      given-names: Michael
+  journal: "Acta Materialia"
+  volume: 236
+  year: 2022
+  start: 118095
+  doi: "10.1016/j.actamat.2022.118095"
+references:
+  - type: article
+    title: >-
+      Molecular dynamics simulation of screw dislocations interacting with
+      interstitial frank loops in a model FCC crystal
+    authors:
+      - family-names: Rodney
+        given-names: David
+    journal: "Acta Materialia"
+    volume: 52
+    issue: 3
+    year: 2004
+    start: 607
+    end: 614
+    notes: >-
+      The piecewise displacement construction implemented in dcreator was
+      inspired by this work.
