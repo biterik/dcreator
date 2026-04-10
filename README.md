@@ -11,6 +11,7 @@ Contact: <e.bitzek@mpi-susmat.de>
 License: **GPL-3.0-or-later** (see [LICENSE](LICENSE))
 Repository: <https://github.com/biterik/dcreator>
 Archive & DOI: <https://doi.org/10.5281/zenodo.19502900>
+Companion tool: **LEGO** crystal builder — <https://github.com/biterik/LEGO>
 
 `dcreator` takes an atomistic configuration of a crystal, rotates it
 into the frame of a prescribed dislocation, applies a *simplified*
@@ -378,10 +379,12 @@ inspired by the approach used in:
 > **Acta Materialia 52 (3) (2004) 607–614**.
 
 The original (2000-era) `dcreator` code from which this rewrite derives
-its file-format conventions and test fixtures was used in the author's
-group at FAU Erlangen-Nürnberg; the IMD checkpoint examples shipped in
-the regression test were generated with the LEGO crystal builder by
-Arun Prakash and members of the group of Erik Bitzek.
+its file-format conventions and test fixtures was developed by the
+author. The IMD checkpoint examples shipped in the regression test were
+generated with **LEGO**, a companion crystal-builder tool also written
+by Erik Bitzek and available at <https://github.com/biterik/LEGO>.
+`dcreator` and LEGO are designed to work together: LEGO produces the
+perfect crystal, and `dcreator` inserts a dislocation into it.
 
 ---
 
