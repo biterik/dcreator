@@ -1,0 +1,69 @@
+# biterik/dcreator — repo vitals
+
+![stars](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fbiterik%2Fdcreator%2Fvitals%2Fbadge%2Fstars.json) ![views/week](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fbiterik%2Fdcreator%2Fvitals%2Fbadge%2Fviews-week.json) ![health](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fbiterik%2Fdcreator%2Fvitals%2Fbadge%2Fhealth.json) 
+_Updated 2026-07-08T15:17:03Z (UTC) · machine-readable: [VITALS.json](VITALS.json) · full history: [history.ndjson](history.ndjson) · daily snapshots: [snapshots/](snapshots/)_
+
+
+## Summary
+
+| Metric | 30 d | 90 d | 365 d |
+|---|---:|---:|---:|
+| Views | 3 | 3 | 3 |
+| Unique visitors¹ | 1 | 1 | 1 |
+| Clones | 3 | 3 | 3 |
+| Stars gained | 0 | 1 | 1 |
+| Release downloads gained | 0 | 0 | 0 |
+
+¹ sum of daily unique counts — an upper bound on true period uniques.
+
+**Health: 49/100** (heuristic² — traffic trend 100, activity 15, community 16, release adoption 10)
+
+## Trends — last 30 days
+
+```
+views  ···············▁▁▁▁▁▁▁▁▁▁▁▁█▁·  (3 total)
+clones ···············▁▁▁▁▁█▁██▁▁▁▁▁·  (3 total)
+```
+
+('·' = day without data)
+
+Stars: **1** (+0 in 30 d, +0 in 7 d)
+**Conversion funnel (30 d):** 1 unique visitors → 3 unique cloners → 0 stars gained → 0 downloads gained
+
+## Where visitors come from (14-day window)
+
+| Referrer | Views | Unique |
+|---|---:|---:|
+| github.com | 3 | 1 |
+
+| Popular path | Views | Unique |
+|---|---:|---:|
+| `/biterik/dcreator/blob/main/CITATION.cff` | 2 | 1 |
+| `/biterik/dcreator` | 1 | 1 |
+
+## Releases
+
+| Tag | Published | Downloads |
+|---|---|---:|
+| v2.0.0 | 2026-04-10 | 0 |
+
+Total release downloads: **0**
+## Activity (last 30 days)
+
+1 commits · 1 PRs opened / 1 merged · 0 issues opened / 0 closed · 2 contributors total
+
+
+---
+
+² Health score and milestone ETAs are simple labeled heuristics computed from
+this repo's history — see [repo-vitals](https://github.com/biterik/repo-vitals)
+for the formulas. Interactive dashboard: [index.html](index.html) on this
+branch (raw URLs don't render HTML — view it via GitHub Pages on the vitals
+branch, the repo-vitals hub, or locally: `git clone -b vitals … && python -m http.server`).
+A copy of this report named with the repo and today's date lives at
+[reports/biterik-dcreator-2026-07-08.md](reports/biterik-dcreator-2026-07-08.md)
+— safe to download standalone.
+
+<sub>[repo-vitals](https://github.com/biterik/repo-vitals) by Erik Bitzek —
+turns any GitHub repo into a permanent analytics archive. Track your own:
+[2-minute install](https://github.com/biterik/repo-vitals#install-instrument-a-repository-2-minutes).</sub>
