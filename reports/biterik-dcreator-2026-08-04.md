@@ -1,7 +1,12 @@
 # biterik/dcreator — repo vitals
 
-![stars](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fbiterik%2Fdcreator%2Fvitals%2Fbadge%2Fstars.json) ![views/week](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fbiterik%2Fdcreator%2Fvitals%2Fbadge%2Fviews-week.json) ![health](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fbiterik%2Fdcreator%2Fvitals%2Fbadge%2Fhealth.json) 
-_Updated 2026-08-04T06:04:41Z (UTC) · machine-readable: [VITALS.json](VITALS.json) · full history: [history.ndjson](history.ndjson) · daily snapshots: [snapshots/](snapshots/)_
+![stars](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fbiterik%2Fdcreator%2Fvitals%2Fbadge%2Fstars.json) ![views/week](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fbiterik%2Fdcreator%2Fvitals%2Fbadge%2Fviews-week.json) 
+_Updated 2026-08-04T20:56:03Z (UTC) · machine-readable: [VITALS.json](VITALS.json) · full history: [history.ndjson](history.ndjson) · daily snapshots: [snapshots/](snapshots/)_
+
+| | |
+|---|---|
+| Repository created | 2026-04-10 |
+| Tracked by repo-vitals since | 2026-06-24 (42 days)³ |
 
 
 ## Summary
@@ -10,25 +15,38 @@ _Updated 2026-08-04T06:04:41Z (UTC) · machine-readable: [VITALS.json](VITALS.js
 |---|---:|---:|---:|
 | Views | 3 | 3 | 3 |
 | Unique visitors¹ | 1 | 1 | 1 |
-| Clones | 99 | 102 | 102 |
+| Clones | 110 | 113 | 113 |
 | Stars gained | 0 | 1 | 1 |
 | Release downloads gained | 0 | 0 | 0 |
 
 ¹ sum of daily unique counts — an upper bound on true period uniques.
 
-**Health: 9/100** (heuristic² — traffic trend 0, activity 15, community 16, release adoption 10)
+## Since tracking began
+
+Everything recorded so far, from 2026-06-24 (42 days) — the total, and the same total expressed as an average rate.
+
+| Metric | Total | Average / 30 d |
+|---|---:|---:|
+| Views | 3 | 2.1 |
+| Unique visitors¹ | 1 | 0.7 |
+| Clones | 113 | 80.7 |
+| Unique cloners¹ | 81 | 57.9 |
+| Stars gained | 1 | 0.7 |
+| Release downloads gained | 0 | 0.0 |
+
+Averages are the total divided by days tracked, times 30 — not a projection.
 
 ## Trends — last 30 days
 
 ```
-views  █▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁····  (3 total)
-clones ▁▁▇▂▇█▂▁▂▇▅▂▁▁▂▂▁▁▁▁▁▁▁▁▁▁····  (99 total)
+views  █▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁·  (3 total)
+clones ▁▁▇▂▇█▂▁▂▇▅▂▁▁▂▂▁▁▁▁▁▁▁▁▁▁▁▂▄·  (110 total)
 ```
 
 ('·' = day without data)
 
 Stars: **1** (+0 in 30 d, +0 in 7 d)
-**Conversion funnel (30 d):** 1 unique visitors → 70 unique cloners → 0 stars gained → 0 downloads gained
+**Conversion funnel (30 d):** 1 unique visitors → 78 unique cloners → 0 stars gained → 0 downloads gained
 
 
 ## Releases
@@ -37,7 +55,10 @@ Stars: **1** (+0 in 30 d, +0 in 7 d)
 |---|---|---:|
 | v2.0.0 | 2026-04-10 | 0 |
 
-Total release downloads: **0**
+Total release downloads: **0** — GitHub's lifetime
+counter, which starts at each release's publication, not at the tracking start
+date above.
+
 ## Activity (last 30 days)
 
 1 commits · 1 PRs opened / 1 merged · 0 issues opened / 0 closed · 2 contributors total
@@ -45,11 +66,18 @@ Total release downloads: **0**
 
 ---
 
-² Health score and milestone ETAs are simple labeled heuristics computed from
-this repo's history — see [repo-vitals](https://github.com/biterik/repo-vitals)
-for the formulas. Interactive dashboard: [index.html](index.html) on this
-branch (raw URLs don't render HTML — view it via GitHub Pages on the vitals
-branch, the repo-vitals hub, or locally: `git clone -b vitals … && python -m http.server`).
+² Milestone ETAs are a naive extrapolation of this repo's own star history —
+a labeled heuristic, not a prediction. See
+[repo-vitals](https://github.com/biterik/repo-vitals) for the formula.
+
+³ The first tracked day usually precedes the day repo-vitals was installed:
+GitHub's traffic API answers with a rolling 14-day window, so the first run
+already brings in up to 13 earlier days. Days before the repository existed
+are recorded as zeros.
+
+Interactive dashboard: [index.html](index.html) on this branch (raw URLs don't
+render HTML — view it via GitHub Pages on the vitals branch, the repo-vitals
+hub, or locally: `git clone -b vitals … && python -m http.server`).
 A copy of this report named with the repo and today's date lives at
 [reports/biterik-dcreator-2026-08-04.md](reports/biterik-dcreator-2026-08-04.md)
 — safe to download standalone.
